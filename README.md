@@ -68,7 +68,7 @@ void loop() {
 
 
 ---
-```
+```c
 ## API  Reference
 
 
