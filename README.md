@@ -70,7 +70,7 @@ void loop() {
 ⸻
 ```cpp
 
-## API Reference
+# API Reference
 
 Function Description
 
