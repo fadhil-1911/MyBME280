@@ -8,7 +8,7 @@ Supports temperature (°C), humidity (%RH), pressure (hPa), and altitude (m) rea
 ## Features
 
 - Read **temperature**, **humidity**, and **pressure**
-- Calculate **altitude** (based on sea-level pressure)
+- Calculate **altitude** 
 - Supports **I²C** (default address `0x76`)
 - Simple, minimal, and educational
 - Designed for **embedded projects** and **students**
