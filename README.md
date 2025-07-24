@@ -15,9 +15,9 @@ Supports temperature (°C), humidity (%RH), pressure (hPa), and altitude (m) rea
 
 ---
 
-## 🔧 Getting Started
+## Getting Started
 
-### 🔌 Wiring (I2C)
+### Wiring (I2C)
 
 | BME280 Pin | Arduino |
 |------------|---------|
@@ -26,7 +26,7 @@ Supports temperature (°C), humidity (%RH), pressure (hPa), and altitude (m) rea
 | SDA        | A4 (Uno/Nano) |
 | SCL        | A5 (Uno/Nano) |
 
-### 📦Installation
+### Installation
 
 1. Clone or download ZIP:
    ```bash
