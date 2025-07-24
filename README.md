@@ -31,3 +31,8 @@ Supports temperature (°C), humidity (%RH), pressure (hPa), and altitude (m) rea
 1. Clone or download ZIP:
    ```bash
    https://github.com/fadhil-1911/MyBME280
+
+
+   
+
+📘 API Reference
