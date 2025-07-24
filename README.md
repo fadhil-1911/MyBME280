@@ -69,8 +69,8 @@ void loop() {
 
 ⸻
 
+## API  Reference
 
-# API Reference
 
 ```cpp
 Function Description
