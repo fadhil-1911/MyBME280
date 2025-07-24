@@ -72,7 +72,7 @@ void loop() {
 ## API  Reference
 
 
-```cpp
+```
 Function Description
 
 begin() 
