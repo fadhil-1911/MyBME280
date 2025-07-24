@@ -36,7 +36,7 @@ Supports temperature (°C), humidity (%RH), pressure (hPa), and altitude (m) rea
 	3.	Restart Arduino IDE
 
 ⸻
-
+```cpp
 Example
 
 #include <Wire.h>
