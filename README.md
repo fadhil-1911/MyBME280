@@ -89,24 +89,3 @@ MIT License.
 Made in Malaysia 🇲🇾 by fadhil-1911
 
 
-
-
-⸻
-
-Seterusnya?
-
-📁 Folder repo kamu sepatutnya begini:
-
-MyBME280/
-├── src/
-│   ├── MyBME280.h
-│   └── MyBME280.cpp
-├── examples/
-│   └── SimpleRead/
-│       └── SimpleRead.ino
-├── README.md
-├── CHANGELOG.md
-└── library.properties
-
-Nak saya bantu generate library.properties juga?
-Atau tolong semak gaya penamaan dan dokumentasi fungsi MyBME280.h untuk Doxygen?
