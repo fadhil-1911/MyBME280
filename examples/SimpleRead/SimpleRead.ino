@@ -6,21 +6,13 @@ MyBME280 bme;
 void setup() {
   Serial.begin(9600);
   if (!bme.begin()) {
-    Serial.println("Sensor not detected!");
-    while (1);
+    Serial.println("❌ BME280 not found. Check wiring!");
+    while (1); // Halt
   }
 }
 
 void loop() {
   bme.update();
-
-  Serial.print("Temp: ");
-  Serial.print(bme.getTemperature());
-  Serial.print(" °C,  Hum: ");
-  Serial.print(bme.getHumidity());
-  Serial.print(" %,  Press: ");
-  Serial.print(bme.getPressure());
-  Serial.println(" hPa");
-
+  bme.printAll(); // Print Temp, Pressure, Humidity
   delay(1000);
 }
