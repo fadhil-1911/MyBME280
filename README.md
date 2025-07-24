@@ -70,7 +70,7 @@ void loop() {
 ⸻
 ```cpp
 
-📘 API Reference
+## API Reference
 
 Function Description
 
@@ -98,19 +98,7 @@ Prints all sensor readings (temperature, pressure, humidity) to the Serial Monit
 setTempOffset(offset)
 Adjusts the temperature reading by applying a manual offset (in °C).
 
-## 📘 API Reference
 
-| Function | Description |
-|----------|-------------|
-| `begin()` | Initializes the BME280 sensor and prepares it for reading. |
-| `update()` | Reads and processes the latest temperature, pressure, and humidity data. |
-| `getTemperature()` | Returns the current temperature in degrees Celsius (°C). |
-| `getHumidity()` | Returns the current relative humidity in percent (%RH). |
-| `getPressure()` | Returns the current atmospheric pressure in hectopascals (hPa). |
-| `getAltitude(seaLevel_hPa)` | Estimates the current altitude (in meters) based on the pressure and provided sea-level pressure. |
-| `printAll()` | Prints all sensor readings (temperature, pressure, humidity) to the Serial Monitor. |
-| `setTempOffset(offset)` | Adjusts the temperature reading by applying a manual offset (in °C). |
-⸻
 
 📄 License
 
