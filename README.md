@@ -35,7 +35,7 @@ Supports temperature (°C), humidity (%RH), pressure (hPa), and altitude (m) rea
 	2.	Extract to your Arduino/libraries folder
 	3.	Restart Arduino IDE
 
-⸻
+---
 ```cpp
 Example
 
@@ -67,7 +67,7 @@ void loop() {
 }
 
 
-⸻
+---
 
 ## API  Reference
 
