@@ -71,15 +71,25 @@ void loop() {
 
 📘 API Reference
 
-Function	Description
-begin()	Inisialisasi sensor
-update()	Baca dan proses data semasa
-getTemperature()	Dapatkan suhu (°C)
-getHumidity()	Dapatkan kelembapan (%RH)
-getPressure()	Dapatkan tekanan udara (hPa)
-getAltitude(seaLevel_hPa)	Anggaran altitud (meter)
-printAll()	Cetak semua data ke Serial
-setTempOffset(offset)	Laras suhu secara manual
+Function
+Description
+begin()
+Initializes the BME280 sensor and prepares it for reading.
+update()
+Reads and processes the latest temperature, pressure, and humidity data.
+getTemperature()
+Returns the current temperature in degrees Celsius (°C).
+getHumidity()
+Returns the current relative humidity in percent (%RH).
+getPressure()
+Returns the current atmospheric pressure in hectopascals (hPa).
+getAltitude(seaLevel_hPa)
+Estimates the current altitude (in meters) based on the pressure and provided sea-level pressure.
+printAll()
+Prints all sensor readings (temperature, pressure, humidity) to the Serial Monitor.
+setTempOffset(offset)
+Adjusts the temperature reading by applying a manual offset (in °C).
+
 
 ⸻
 
