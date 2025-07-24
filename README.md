@@ -99,6 +99,32 @@ Prints all sensor readings (temperature, pressure, humidity) to the Serial Monit
 setTempOffset(offset);
 Adjusts the temperature reading by applying a manual offset (in °C).
 
+Function
+Description
+begin()
+Initialize the sensor
+update()
+Read and process latest data
+
+getTemperature()
+Get temperature (°C)
+
+getHumidity()
+Get humidity (%RH)
+
+getPressure()
+Get pressure (hPa)
+
+getAltitude(seaLevel_hPa)
+
+Estimate altitude (meters)
+
+printAll()
+Print all data to Serial
+
+setTempOffset(offset)
+Adjust temperature offset manually
+
 
 
 📄 License
