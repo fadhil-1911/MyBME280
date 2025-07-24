@@ -67,7 +67,7 @@ void loop() {
 }
 
 
-
+---
 ```
 ## API  Reference
 
@@ -75,28 +75,28 @@ void loop() {
 
 Function Description
 
-begin() 
+begin(); 
 Initializes the BME280 sensor and prepares it for reading.
 
-update() 
+update(); 
 Reads and processes the latest temperature, pressure, and humidity data.
 
-getTemperature() 
+getTemperature(); 
 Returns the current temperature in degrees Celsius (°C).
 
-getHumidity()
+getHumidity();
 Returns the current relative humidity in percent (%RH).
 
-getPressure()
+getPressure();
 Returns the current atmospheric pressure in hectopascals (hPa).
 
-getAltitude(seaLevel_hPa)
+getAltitude(seaLevel_hPa);
 Estimates the current altitude (in meters) based on the pressure and provided sea-level pressure.
 
-printAll()
+printAll();
 Prints all sensor readings (temperature, pressure, humidity) to the Serial Monitor.
 
-setTempOffset(offset)
+setTempOffset(offset);
 Adjusts the temperature reading by applying a manual offset (in °C).
 
 
