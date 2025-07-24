@@ -15,9 +15,9 @@ Supports temperature (°C), humidity (%RH), pressure (hPa), and altitude (m) rea
 
 ---
 
-## 🔧 Getting Started
+## Getting Started
 
-### 🔌 Wiring (I2C)
+### Wiring (I2C)
 
 | BME280 Pin | Arduino |
 |------------|---------|
@@ -37,7 +37,7 @@ Supports temperature (°C), humidity (%RH), pressure (hPa), and altitude (m) rea
 
 ⸻
 
-🚀 Example
+Example
 
 #include <Wire.h>
 #include <MyBME280.h>
@@ -81,15 +81,6 @@ getAltitude(seaLevel_hPa)	Anggaran altitud (meter)
 printAll()	Cetak semua data ke Serial
 setTempOffset(offset)	Laras suhu secara manual
 
-
-⸻
-
-🛣️ Roadmap
-	•	SPI support
-	•	Oversampling config
-	•	Error handling improvement
-	•	Unit test integration
-
 ⸻
 
 📄 License
@@ -97,54 +88,7 @@ setTempOffset(offset)	Laras suhu secara manual
 MIT License.
 Made in Malaysia 🇲🇾 by fadhil-1911
 
----
 
-## ✅ 2. Contoh `examples/SimpleRead/SimpleRead.ino`
-
-```cpp
-#include <Wire.h>
-#include <MyBME280.h>
-
-MyBME280 bme;
-
-void setup() {
-  Serial.begin(9600);
-  if (!bme.begin()) {
-    Serial.println("❌ BME280 not found. Check wiring!");
-    while (1); // Halt
-  }
-}
-
-void loop() {
-  bme.update();
-  bme.printAll(); // Print Temp, Pressure, Humidity
-  delay(1000);
-}
-
-
-⸻
-
-✅ 3. CHANGELOG.md – v0.1.0-alpha
-
-# Changelog – MyBME280
-
-## [v0.1.0-alpha] – 2025-07-24
-
-### 🚀 Initial Alpha Release
-
-- Implemented I2C communication with BME280 (default 0x76)
-- Added temperature, humidity, and pressure reading
-- Altitude estimation via `getAltitude()`
-- Calibration read from sensor registers
-- `update()` method handles all read & process
-- `printAll()` method for easy serial output
-- Temperature offset function (`setTempOffset()`)
-
-### ⚠️ Notes
-
-- Only supports I2C (no SPI yet)
-- Limited error checking
-- Tested on Arduino Nano & Uno
 
 
 ⸻
