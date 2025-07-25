@@ -125,7 +125,7 @@ Print all data to Serial
 setTempOffset(offset)
 Adjust temperature offset manually
 
-```cpp ... ```
+... 
 
 📄 License
 
