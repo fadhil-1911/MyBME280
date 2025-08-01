@@ -5,8 +5,8 @@
                   Supports temperature (°C), humidity (%RH), 
                    pressure (hPa), and altitude (m) readings via I²C.
 *
-*  Version      : 0.1.0
-*  Date         : 01 August 2025
+*  Version      : 0.1.1
+*  Date         : 02 August 2025
 *  Platform     : Arduino (Uno/Nano/Mega, etc.)
 *  Author       : [fadhil1911/https://github.com/fadhil-1911]
 *  Maintainer    :Fadhil <fadhil.hashim755@yahoo.com>
