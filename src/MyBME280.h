@@ -1,13 +1,15 @@
 /***************************************************************
 *  File Name    : MyBME280.cpp
-*  Description  : Driver for the TM1637 4-digit 7-segment display
-*                 with extended features such as decimal point,
-*                 text, time display, and brightness control.
+*  Description  : Lightweight Arduino library for the BME280 
+                   environmental sensor
+                  Supports temperature (°C), humidity (%RH), 
+                   pressure (hPa), and altitude (m) readings via I²C.
 *
 *  Version      : 0.1.0
 *  Date         : 01 August 2025
 *  Platform     : Arduino (Uno/Nano/Mega, etc.)
-*  Author       : [fadhil1911]
+*  Author       : [fadhil1911/https://github.com/fadhil-1911]
+*  Maintainer    :Fadhil <fadhil.hashim755@yahoo.com>
 *
 *  This library supports:
 *   - Read temperature, humidity, and pressure
@@ -19,7 +21,6 @@
 *   - 
 *   - 
 ****************************************************************/
-
 #ifndef MYBME280_H 
 #define MYBME280_H
 #include <Arduino.h
