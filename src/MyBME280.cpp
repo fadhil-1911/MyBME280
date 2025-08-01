@@ -1,3 +1,26 @@
+/***************************************************************
+*  File Name    : MyBME280.cpp
+*  Description  : Driver for the TM1637 4-digit 7-segment display
+*                 with extended features such as decimal point,
+*                 text, time display, and brightness control.
+*
+*  Version      : 1.0.1
+*  Date         : 01 August 2025
+*  Platform     : Arduino (Uno/Nano/Mega, etc.)
+*  Author       : [fadhil /  SmartTM1637]
+*
+*  This library supports:
+*   - Number display with or without leading zeros
+*   - Text and symbol display
+*   - Time display (HH:MM)
+*   - Decimal point control (manual & automatic)
+*   - Support for uppercase/lowercase letters and special characters
+*
+*  Notes:
+*   - 
+*   - 
+****************************************************************/
+
 #include "MyBME280.h"
 //==============================
 // Constructor
