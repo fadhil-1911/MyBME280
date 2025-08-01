@@ -1,5 +1,5 @@
 /***************************************************************
-*  File Name    : MyBME280.cpp
+*  File Name    : MyBME280.h
 *  Description  : Lightweight Arduino library for the BME280 
                    environmental sensor
                   Supports temperature (°C), humidity (%RH), 
