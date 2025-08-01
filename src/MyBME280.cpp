@@ -15,7 +15,7 @@
 *   - Read temperature, humidity, and pressure
 *   - Calculate altitude
 *   - Supports I²C (default address 0x76)
-*   - Simple, minimal, and educational
+*   - Simple and  minima
 *   
 *  Notes:
 *   - 
