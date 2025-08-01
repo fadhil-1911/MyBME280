@@ -10,12 +10,11 @@
 *  Author       : [fadhil1911]
 *
 *  This library supports:
-*   - Number display with or without leading zeros
-*   - Text and symbol display
-*   - Time display (HH:MM)
-*   - Decimal point control (manual & automatic)
-*   - Support for uppercase/lowercase letters and special characters
-*
+*   - Read temperature, humidity, and pressure
+*   - Calculate altitude
+*   - Supports I²C (default address 0x76)
+*   - Simple, minimal, and educational
+*   
 *  Notes:
 *   - 
 *   - 
