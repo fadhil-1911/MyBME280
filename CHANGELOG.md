@@ -1,5 +1,13 @@
 # Changelog – MyBME280
 
+## [v0.1.2-alpha] – 2025-08-03
+
+### Update 
+
+-fix overflow, fake positif (dig_H4 & dig_H5)
+-use float  instead shift bit integer for readRawData humanity
+-update comment
+
 ## [v0.1.1-alpha] – 2025-08-02
 
 ### Update 
