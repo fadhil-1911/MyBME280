@@ -5,8 +5,8 @@
                   Supports temperature (°C), humidity (%RH), 
                    pressure (hPa), and altitude (m) readings via I²C.
 *
-*  Version      : 0.1.2
-*  Date         : 03 August 2025
+*  Version      : 0.1.3
+*  Date         : 04 August 2025
 *  Platform     : Arduino (Uno/Nano/Mega, etc.)
 *  Author       : [fadhil1911/https://github.com/fadhil-1911]
 *  Maintainer    :Fadhil <fadhil.hashim755@yahoo.com>
@@ -213,6 +213,7 @@ bool MyBME280::readRawData() {
     var_H = 0.0;
 
   _humidity = var_H;
+  return true; // 04July fixed
 }
 
 /*
