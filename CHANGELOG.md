@@ -1,5 +1,12 @@
 # Changelog – MyBME280
 
+## [v0.1.3-alpha] – 2025-08-04
+
+### Update 
+
+- Fix: readRawData() add returns true
+- Prevents undefined behavior and false-negative checks in user code
+
 ## [v0.1.2-alpha] – 2025-08-03
 
 ### Update 
